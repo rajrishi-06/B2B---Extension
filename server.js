@@ -4,7 +4,6 @@ import dotenv from "dotenv";
 import path from "path";
 import { fileURLToPath } from "url";
 
-import { Analytics } from "@vercel/analytics/next"
 
 dotenv.config(); // load .env variables
 
