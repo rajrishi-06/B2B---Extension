@@ -5,8 +5,6 @@ import { createClient } from './supabase.js';
 // --- SUPABASE SETUP ---
 let supabaseClient; 
 
-import { Analytics } from "@vercel/analytics/next"
-
 // --- INLINE ICONS ---
 // Using inline SVGs is cleaner than another CDN request
 const ICONS = {
